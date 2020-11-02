@@ -1,0 +1,11 @@
+#echo "Enter 1st Directory: "
+dir1=$1
+#echo "Enter 2nd Directory: "
+dir2=$2
+cd
+cd $dir1
+ls > lsdir1.txt
+for f1 in 
+do
+rm $dir2/$f1
+done
